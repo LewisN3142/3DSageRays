@@ -1,2 +1,9 @@
 # 3DSage-RayCaster
- Raycaster built by following the tutorials on the channel 3DSage on Youtube
+
+This project features a raycaster built by following 3DSage's [tutorial](https://www.youtube.com/watch?v=gYRrGTC7GtA) on Youtube and was developed using C++ and OpenGL (in particular, the now long-outdated GLUT package). 
+I completed this project in July of 2022, as I wanted a short term goal to work on while completing the pre-reading for my Ph.D. I had some experience of scripting languages at the time, having used MATLAB, Python, and a little JavaScript while at university and was familiar with object oriented programming as a concept from secondary school, however I wanted to learn how to programme in C++ and develop working applications. 
+With hindsight now, I see there are a multitude of improvements one could make to the code for this project &ndash; most prominently, it could be coded in several separate C++ files and use the aforementioned concept of object oriented programming to be more efficient and easier to read. 
+I abandoned the project when the workload for my studies picked up and 3DSage shifted focus to a GBA themed game engine, but remained interested in the concept of raycasting and binary space partitioning (having been heavily inspired by early 90s games and John Carmack's work on Doom).
+
+Should you wish to look over the project and compile it yourself, you may need to set up GLUT on your PC. 3DSage has also kindly provided a [guide](https://www.youtube.com/watch?v=RTk6W67dyR4) for doing so. Alternatively, if you simply wish to explore the raycaster as it is, you may download and run the [executable](https://github.com/LewisN3142/3DSageRays/tree/main/Debug) found in this repository. 
+I may return to this project in the future and convert it into a full game, however I currently do not have plans to do so, in favour of creating a sector based game engine.
